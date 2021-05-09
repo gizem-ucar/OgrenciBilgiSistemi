@@ -1,0 +1,9 @@
+C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\DataAccess\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\OgrenciBilgiSistemi-main\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\OgrenciBilgiSistemi-main\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\OgrenciBilgiSistemi-main\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\OgrenciBilgiSistemi-main\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
