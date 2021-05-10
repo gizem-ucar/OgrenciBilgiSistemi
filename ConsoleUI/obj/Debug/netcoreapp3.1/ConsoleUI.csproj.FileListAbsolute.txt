@@ -1,0 +1,4 @@
+C:\Users\ASUS\Desktop\OgrenciBilgiSistemi-main\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\OgrenciBilgiSistemi-main\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\OgrenciBilgiSistemi-main\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\OgrenciBilgiSistemi-main\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CoreCompileInputs.cache
