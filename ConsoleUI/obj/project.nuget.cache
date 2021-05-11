@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "814+h45+dsiCCQWhTq4nPdfdS/TOhatDAbSxPO+7WiCcoK639arDeehxOx71gq8fNtFj92aPbzgWnyMmp2lyAw==",
+  "dgSpecHash": "2lc1L430rQ/d0vGm8dMA+PlVDUm6GdLNoj9Pn45vtpa1E9wDOC+wQtmH47JUW3i45Gu9xLtDPdVTIZ/7nRHp+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

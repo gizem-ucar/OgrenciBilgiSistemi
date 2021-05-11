@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M+PbgXzqBMgAXRMYp3jdn4/odK64lESmolsbe2dYwRrIcm3abTLRwWlotVXrrBwzba8g7R3NKEzVJPsNhNPNzA==",
+  "dgSpecHash": "fPTU+R9Gn0KxqDKy4fqiD4vlyXRJtIVnQdSgixJPujpTWAbgXu1vkEf8tQWGAHrSY9qCsKNPBWmaj6tk8zWwtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

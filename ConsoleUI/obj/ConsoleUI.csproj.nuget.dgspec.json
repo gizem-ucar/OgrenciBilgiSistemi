@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Business\\Business.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Business\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -135,17 +135,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Business\\Business.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Business\\Business.csproj"
               },
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj"
               },
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj"
               }
             }
           }
@@ -178,14 +178,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -286,14 +286,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -314,11 +314,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj"
               },
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj"
               }
             }
           }
@@ -361,14 +361,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -389,8 +389,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj"
+              "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj"
               }
             }
           }

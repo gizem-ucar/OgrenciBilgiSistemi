@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "21GB55aBPdoJ69VQYx57qNhgxaY1yWIiP9WPYiFFGqB2nuakYoMRdtLIRiOo7Vyp3yaWBSUqZP1EwbyxG/R4zQ==",
+  "dgSpecHash": "6WpQgzEP83w4m/uPZjXuWI2dNxKQVxBVgdJUmOa391xCgBUzPVLLU22INFrocxcsSAe4apnC2HvWLYP99ll41w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

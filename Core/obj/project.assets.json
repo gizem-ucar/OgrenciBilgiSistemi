@@ -6295,11 +6295,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Core\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

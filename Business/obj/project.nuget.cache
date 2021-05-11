@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kEZbKanGDdBNrbb5/5f/Bi6Q9GaX9R/piV/u9z6x3hWfNagc63GUuhY/5j55VVLYNrzcOCFyE/Su3tjl0ZYDkQ==",
+  "dgSpecHash": "+844pijm/KSPdIaRseTLjkiEHyWqVSq/YsSaU3M7aeV/vti8/HVGfmxkszwKhAASTt5XaIrkW9Sv5SUd/jR0Ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\GithubOgranciBilgiSistemi-main\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
