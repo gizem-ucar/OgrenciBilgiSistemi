@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\GitHub\\ReCapProject\\OgrenciBilgiSistemi\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\GitHub\\ReCapProject\\OgrenciBilgiSistemi\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\ReCapProject\\OgrenciBilgiSistemi\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ReCapProject\\OgrenciBilgiSistemi\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ReCapProject\\OgrenciBilgiSistemi\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\OgrenciBilgiSistemi-main\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
