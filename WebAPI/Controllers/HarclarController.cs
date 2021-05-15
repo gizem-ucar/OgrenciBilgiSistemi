@@ -53,5 +53,27 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+
+        [HttpPost("delete")]
+        public IActionResult Delete(Harc harc)
+        {
+            var result = _harcService.Delete(harc);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpPost("uppdate")]
+        public IActionResult Update(Harc harc)
+        {
+            var result = _harcService.Update(harc);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
     }
 }

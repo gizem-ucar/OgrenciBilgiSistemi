@@ -74,10 +74,3 @@ C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\WebAPI\bin\Debug\netcoreapp
 C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\WebAPI\bin\Debug\netcoreapp3.1\Core.pdb
 C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\WebAPI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\WebAPI\bin\Debug\netcoreapp3.1\Entities.pdb
-C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
-C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
-C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
-C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
-C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb

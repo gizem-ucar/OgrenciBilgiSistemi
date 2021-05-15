@@ -19,7 +19,7 @@ namespace Business.Concrete
         public IResult Add(Not not)
         {
             _notDal.Add(not);
-            return new Result(true, Messages.NotAdded);
+            return new Result(true, Messages.NotAdded); 
         }
 
         public IResult Delete(Not not)
@@ -30,12 +30,12 @@ namespace Business.Concrete
 
         public IDataResult<List<Not>> GetAll()
         {
-            return new SuccessDataResult<List<Not>>(_notDal.GetAll(), Messages.notListed);
+            return new SuccessDataResult<List<Not>>(_notDal.GetAll(), Messages.NotListed);
         }
 
-        public IDataResult<Not> GetById(string Id)
+        public IDataResult<Not> GetById(int Id)
         {
-            return new SuccessDataResult<Not>(_notDal.Get(n => n.NotId == Id), Messages.NotGeted);
+            return new SuccessDataResult<Not>(_notDal.Get(n => n.Id == Id), Messages.NotGeted);
         }
 
         public IResult Update(Not not)
