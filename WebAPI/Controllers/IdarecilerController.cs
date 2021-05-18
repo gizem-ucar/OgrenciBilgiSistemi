@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,52 @@ namespace WebAPI.Controllers
         public IdarecilerController(IIdareciService idareciService)
         {
             _idareciService = idareciService;
+        }
+
+        
+
+        [HttpPost("add")]
+        public IActionResult Add(IdareciForRegisterDto akademisyen)
+        {
+            var result = _idareciService.Add(akademisyen);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpPost("delete")]
+        public IActionResult Delete(int Id)
+        {
+            var result = _idareciService.Delete(Id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpPost("update")]
+        public IActionResult Update(IdareciForRegisterDto akademisyen)
+        {
+            var result = _idareciService.Update(akademisyen);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpPost("login")]
+        public IActionResult Login(LoginDto loginDto)
+        {
+            var result = _idareciService.Login(loginDto);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
 
         [HttpGet("getall")]
@@ -42,32 +89,46 @@ namespace WebAPI.Controllers
 
         }
 
-        [HttpPost("add")]
-        public IActionResult Add(Idareci akademisyen)
+        [HttpGet("getbysicilno")]
+        public IActionResult GetBySicilNo(int sicilNo)
         {
-            var result = _idareciService.Add(akademisyen);
+            var result = _idareciService.GetBySicilNo(sicilNo);
             if (result.Success)
             {
                 return Ok(result);
             }
             return BadRequest(result);
+
         }
 
-        [HttpPost("delete")]
-        public IActionResult Delete(Idareci akademisyen)
+        [HttpGet("getbyemail")]
+        public IActionResult GetByEMail(string email)
         {
-            var result = _idareciService.Delete(akademisyen);
+            var result = _idareciService.GetByEMail(email);
             if (result.Success)
             {
                 return Ok(result);
             }
             return BadRequest(result);
+
         }
 
-        [HttpPost("update")]
-        public IActionResult Update(Idareci akademisyen)
+        [HttpGet("getbyunvanid")]
+        public IActionResult GetByUnvanId(int unvanId)
         {
-            var result = _idareciService.Update(akademisyen);
+            var result = _idareciService.GetByUnvanId(unvanId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+
+        }
+
+        [HttpGet("getIdareciDetaylari")]
+        public IActionResult GetIdareciDetay()
+        {
+            var result = _idareciService.GetAllByIdareciDto();
             if (result.Success)
             {
                 return Ok(result);

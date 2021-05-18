@@ -26,15 +26,15 @@
         public static string DevamsizlikGeted = "Devamsizlik Bulundu";
         public static string DevamsizlikUpdated = "Devamsizliklar Güncellendi";
 
-        public static string FakulteGeted = "Sinav Bulundu";
-        public static string FakulteAdded = "Sinav EKlendi";
-        public static string FakulteDeleted = "Sinav Silindi";
-        public static string FakulteUpdated = "Sinav Güncellendi";
-        public static string FakulteListed = "Sinavlar Listelendi";
+        public static string FakulteGeted = "Fakulte Bulundu";
+        public static string FakulteAdded = "Fakulte EKlendi";
+        public static string FakulteDeleted = "Fakulte Silindi";
+        public static string FakulteUpdated = "Fakulte Güncellendi";
+        public static string FakulteListed = "Fakulteler Listelendi";
 
         public static string HarcAdded = "Harc Eklendi";
         public static string HarcDeleted = "Harc Silindi";
-        public static string HarcListelendi = "Harc Listelendi";
+        public static string HarcListed = "Harc Listelendi";
         public static string HarcGeted = "Harc Id göre Listelendi";
         public static string HarcUpdated = "Harclar Güncellendi";
 
@@ -92,6 +92,7 @@
         public static string SubeUpdated = "Sube Güncellendi";
         public static string SubeListed = "Subeler Listelendi";
 
-        public static string HarcbyOgrenciIdGeted { get; internal set; }
+   
+
     }
 }

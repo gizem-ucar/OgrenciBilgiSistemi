@@ -1,8 +1,11 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System.Collections.Generic;
 
 namespace Business.Concrete
@@ -16,6 +19,7 @@ namespace Business.Concrete
             _devamsizlikDal = devamsizlikDal;
         }
 
+        [ValidationAspect(typeof(DevamsizlikValidator))]
         public IResult Add(Devamsizlik devamsizlik)
         {
             _devamsizlikDal.Add(devamsizlik);
@@ -28,9 +32,26 @@ namespace Business.Concrete
             return new Result(true, Messages.DevamsizlikDeleted);
         }
 
+        [ValidationAspect(typeof(DevamsizlikValidator))]
+        public IResult Update(Devamsizlik devamsizlik)
+        {
+            _devamsizlikDal.Update(devamsizlik);
+            return new Result(true, Messages.DevamsizlikUpdated);
+        }
+
         public IDataResult<List<Devamsizlik>> GetAll()
         {
             return new SuccessDataResult<List<Devamsizlik>>(_devamsizlikDal.GetAll(), Messages.DevamsizlikListed);
+        }
+
+        public IDataResult<List<Devamsizlik>> GetByDersId(int dersId)
+        {
+            return new SuccessDataResult<List<Devamsizlik>>(_devamsizlikDal.GetAll(a => a.DersId == dersId), Messages.DevamsizlikGeted);
+        }
+
+        public IDataResult<List<Devamsizlik>> GetByDevamsizlikDurumu(bool devamsizlikDurumu)
+        {
+            return new SuccessDataResult<List<Devamsizlik>>(_devamsizlikDal.GetAll(a => a.DevamsizlikDurumu == devamsizlikDurumu), Messages.DevamsizlikGeted);
         }
 
         public IDataResult<Devamsizlik> GetById(int Id)
@@ -38,10 +59,13 @@ namespace Business.Concrete
             return new SuccessDataResult<Devamsizlik>(_devamsizlikDal.Get(a => a.Id == Id), Messages.DevamsizlikGeted);
         }
 
-        public IResult Update(Devamsizlik devamsizlik)
+        public IDataResult<List<Devamsizlik>> GetByOgrenciId(int ogrenciId)
         {
-            _devamsizlikDal.Update(devamsizlik);
-            return new Result(true, Messages.DevamsizlikUpdated);
+            return new SuccessDataResult<List<Devamsizlik>>(_devamsizlikDal.GetAll(a => a.OgrenciId == ogrenciId), Messages.DevamsizlikGeted);
+        }
+        public IDataResult<List<DevamsizlikDetayDto>> GetAllByDevamsizlikDto()
+        {
+            return new SuccessDataResult<List<DevamsizlikDetayDto>>(_devamsizlikDal.GetDevamsizlikDetaylari(), Messages.DevamsizlikListed);
         }
     }
 }

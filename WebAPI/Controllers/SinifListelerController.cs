@@ -18,29 +18,6 @@ namespace WebAPI.Controllers
             _sinifListeService = sinifListeService;
         }
 
-        [HttpGet("getall")]
-        public IActionResult GetAll()
-        {
-            var result = _sinifListeService.GetAll();
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-        }
-
-        [HttpGet("getbyid")]
-        public IActionResult GetById(int Id)
-        {
-            var result = _sinifListeService.GetById(Id);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-
-        }
-
         [HttpPost("add")]
         public IActionResult Add(SinifListe sinifListe)
         {
@@ -67,6 +44,62 @@ namespace WebAPI.Controllers
         public IActionResult Update(SinifListe sinifListe)
         {
             var result = _sinifListeService.Update(sinifListe);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getall")]
+        public IActionResult GetAll()
+        {
+            var result = _sinifListeService.GetAll();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getbyid")]
+        public IActionResult GetById(int Id)
+        {
+            var result = _sinifListeService.GetById(Id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+
+        }
+
+        [HttpGet("getbyogrenciid")]
+        public IActionResult GetByOgrenciId(int ogrenciId)
+        {
+            var result = _sinifListeService.GetByOgrenciId(ogrenciId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getbysubeiid")]
+        public IActionResult GetBySubeiId(int subeiId)
+        {
+            var result = _sinifListeService.GetBySubeId(subeiId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getsiniflisteDetaylari")]
+        public IActionResult GetAllBySinifListeDto()
+        {
+            var result = _sinifListeService.GetAllBySinifListeDto();
             if (result.Success)
             {
                 return Ok(result);
