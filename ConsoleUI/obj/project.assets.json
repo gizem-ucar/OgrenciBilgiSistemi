@@ -6369,23 +6369,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Mehmet\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\ConsoleUI\\ConsoleUI.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\ConsoleUI\\obj\\",
+      "projectPath": "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\ConsoleUI\\ConsoleUI.csproj",
+      "packagesPath": "C:\\Users\\Mehmet\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6400,17 +6400,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\Business\\Business.csproj"
+            "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\Business\\Business.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\Core\\Core.csproj"
+            "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\Core\\Core.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\OgranciBilgiSistemi-main\\Entities\\Entities.csproj"
+            "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Mehmet\\Documents\\GitHub\\OgrenciBilgiSistemi\\Entities\\Entities.csproj"
             }
           }
         }
@@ -6439,7 +6439,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

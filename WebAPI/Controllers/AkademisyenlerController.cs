@@ -14,10 +14,12 @@ namespace WebAPI.Controllers
     public class AkademisyenlerController : Controller
     {
         IAkademisyenService _akademisyenService;
+        IUserService _userService;
 
-        public AkademisyenlerController(IAkademisyenService akademisyenService)
+        public AkademisyenlerController(IAkademisyenService akademisyenService, IUserService userService)
         {
             _akademisyenService = akademisyenService;
+            _userService = userService;
         }
 
         [HttpPost("add")]
@@ -31,7 +33,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost("delete")]
+        [HttpGet("delete")]
         public IActionResult Delete(int Id)
         {
             var result = _akademisyenService.Delete(Id);
@@ -56,11 +58,18 @@ namespace WebAPI.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginDto loginDto)
         {
-            var result = _akademisyenService.Login(loginDto);
+            var userToLogin = _akademisyenService.Login(loginDto);
+            if (!userToLogin.Success)
+            {
+                return BadRequest(userToLogin.Message);
+            }
+
+            var result = _userService.CreateAccessToken(userToLogin.Data);
             if (result.Success)
             {
                 return Ok(result);
             }
+
             return BadRequest(result);
         }
 

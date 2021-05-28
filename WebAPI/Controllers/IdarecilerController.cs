@@ -14,18 +14,19 @@ namespace WebAPI.Controllers
     public class IdarecilerController : Controller
     {
         IIdareciService _idareciService;
-
-        public IdarecilerController(IIdareciService idareciService)
+        IUserService _userService;
+        public IdarecilerController(IIdareciService idareciService, IUserService userService)
         {
             _idareciService = idareciService;
+            _userService = userService;
         }
 
         
 
         [HttpPost("add")]
-        public IActionResult Add(IdareciForRegisterDto akademisyen)
+        public IActionResult Add(IdareciForRegisterDto idareci)
         {
-            var result = _idareciService.Add(akademisyen);
+            var result = _idareciService.Add(idareci);
             if (result.Success)
             {
                 return Ok(result);
@@ -33,7 +34,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost("delete")]
+        [HttpGet("delete")]
         public IActionResult Delete(int Id)
         {
             var result = _idareciService.Delete(Id);
@@ -45,9 +46,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update(IdareciForRegisterDto akademisyen)
+        public IActionResult Update(IdareciForRegisterDto idareci)
         {
-            var result = _idareciService.Update(akademisyen);
+            var result = _idareciService.Update(idareci);
             if (result.Success)
             {
                 return Ok(result);
@@ -58,7 +59,13 @@ namespace WebAPI.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginDto loginDto)
         {
-            var result = _idareciService.Login(loginDto);
+            var userToLogin = _idareciService.Login(loginDto);
+            if (!userToLogin.Success)
+            {
+                return BadRequest(userToLogin.Message);
+            }
+
+            var result = _userService.CreateAccessToken(userToLogin.Data);
             if (result.Success)
             {
                 return Ok(result);

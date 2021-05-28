@@ -31,10 +31,10 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost("delete")]
-        public IActionResult Delete(Ders ders)
+        [HttpGet("delete")]
+        public IActionResult Delete(int Id)
         {
-            var result = _dersService.Delete(ders);
+            var result = _dersService.Delete(Id);
             if (result.Success)
             {
                 return Ok(result);
@@ -77,9 +77,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getbydersKodu")]
-        public IActionResult GetByDersKodu(string Id)
+        public IActionResult GetByDersKodu(string dersKodu)
         {
-            var result = _dersService.GetByDersKodu(Id);
+            var result = _dersService.GetByDersKodu(dersKodu);
             if (result.Success)
             {
                 return Ok(result);
@@ -97,6 +97,18 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return BadRequest(result);
+        }
+
+        [HttpGet("getbydonemid")]
+        public IActionResult GetByDonemId(int donemId)
+        {
+            var result = _dersService.GetByDonemId(donemId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+
         }
     }
 }

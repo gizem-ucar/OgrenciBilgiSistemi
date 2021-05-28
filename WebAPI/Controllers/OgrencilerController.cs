@@ -14,10 +14,11 @@ namespace WebAPI.Controllers
     public class OgrencilerController : ControllerBase
     {
         IOgrenciService _ogrenciService;
-
-        public OgrencilerController(IOgrenciService ogrenciService)
+        IUserService _userService;
+        public OgrencilerController(IOgrenciService ogrenciService, IUserService userService)
         {
             _ogrenciService = ogrenciService;
+            _userService = userService;
         }
 
         [HttpPost("add")]
@@ -31,7 +32,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost("delete")]
+        [HttpGet("delete")]
         public IActionResult Delete(int Id)
         {
             var result = _ogrenciService.Delete(Id);
@@ -56,11 +57,18 @@ namespace WebAPI.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginDto loginDto)
         {
-            var result = _ogrenciService.Login(loginDto);
+            var userToLogin = _ogrenciService.Login(loginDto);
+            if (!userToLogin.Success)
+            {
+                return BadRequest(userToLogin.Message);
+            }
+
+            var result = _userService.CreateAccessToken(userToLogin.Data);
             if (result.Success)
             {
                 return Ok(result);
             }
+
             return BadRequest(result);
         }
 
@@ -126,6 +134,18 @@ namespace WebAPI.Controllers
         public IActionResult GetByEMail(string email)
         {
             var result = _ogrenciService.GetByEMail(email);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+
+        }
+
+        [HttpGet("getbyid")]
+        public IActionResult GetById(int Id)
+        {
+            var result = _ogrenciService.GetById(Id);
             if (result.Success)
             {
                 return Ok(result);

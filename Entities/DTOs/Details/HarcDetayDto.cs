@@ -5,6 +5,8 @@ namespace Entities.DTOs
 {
     public class HarcDetayDto : IDto
     {
+        public int Id { get; set; }
+        public int OgrenciId { get; set; }
         public string OgrenciAdi { get; set; }
         public string OgrenciSoyadi { get; set; }
         public string OgrenciMail { get; set; }
@@ -14,6 +16,6 @@ namespace Entities.DTOs
         public string Turu { get; set; }
         public DateTime TahakkukTarihi { get; set; }
         public DateTime OdemeTarihi { get; set; }
-        public double Tutar { get; set; }
+        public Decimal Tutar { get; set; }
     }
 }

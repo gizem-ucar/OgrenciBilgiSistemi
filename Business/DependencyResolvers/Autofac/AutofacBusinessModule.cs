@@ -4,6 +4,7 @@ using Business.Abstract;
 using Business.Concrete;
 using Castle.DynamicProxy;
 using Core.Utilities.Interceptors;
+using Core.Utilities.Security.JWT;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Http;
@@ -22,6 +23,9 @@ namespace Business.DependencyResolvers.Autofac
 
             builder.RegisterType<DersManager>().As<IDersService>().SingleInstance();
             builder.RegisterType<EfDersDal>().As<IDersDal>().SingleInstance();
+
+            builder.RegisterType<DersKayitManager>().As<IDersKayitService>().SingleInstance();
+            builder.RegisterType<EfDersKayitDal>().As<IDersKayitDal>().SingleInstance();
 
             builder.RegisterType<DevamsizlikManager>().As<IDevamsizlikService>().SingleInstance();
             builder.RegisterType<EfDevamsizlikDal>().As<IDevamsizlikDal>().SingleInstance();
@@ -65,6 +69,9 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<IdareciManager>().As<IIdareciService>().SingleInstance();
             builder.RegisterType<EfIdareciDal>().As<IIdareciDal>().SingleInstance();
 
+            builder.RegisterType<UserManager>().As<IUserService>();
+            builder.RegisterType<EfUserDal>().As<IUserDal>();
+            builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 
 
 

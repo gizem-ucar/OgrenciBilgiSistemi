@@ -11,9 +11,10 @@ namespace Business.Abstract
     {
         IResult Add(Sinav sinav);
         IResult Update(Sinav sinav);
-        IResult Delete(Sinav sinav);
+        IResult Delete(int Id);
         IDataResult<List<Sinav>> GetAll();
-        IDataResult<Sinav> GetById(int Id);
+        IDataResult<List<SinavDetayDto>> GetById(int Id);
+        IDataResult<List<SinavDetayDto>> GetByAkademisyenId(int Id);
         IDataResult<List<SinavDetayDto>> GetAllBySinavDto();
     }
 }

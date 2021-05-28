@@ -14,10 +14,13 @@ namespace Business.Concrete
     public class SinavManager : ISinavService
     {
         ISinavDal _sinavDal;
+        ISubeDal _subeDal;
 
-        public SinavManager(ISinavDal sinavDal)
+        public SinavManager(ISinavDal sinavDal, ISubeDal subeDal)
         {
             _sinavDal = sinavDal;
+            _subeDal = subeDal;
+
         }
 
         [ValidationAspect(typeof(SinavValidator))]
@@ -27,8 +30,9 @@ namespace Business.Concrete
             return new Result(true, Messages.SinavAdded);
         }
 
-        public IResult Delete(Sinav sinav)
+        public IResult Delete(int Id)
         {
+            Sinav sinav = _sinavDal.Get(s => s.Id==Id);
             _sinavDal.Delete(sinav);
             return new Result(true, Messages.SinavDeleted);
         }
@@ -44,15 +48,21 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<Sinav>>(_sinavDal.GetAll(), Messages.SinavListed);
         }
-        public IDataResult<Sinav> GetById(int Id)
+        public IDataResult<List<SinavDetayDto>> GetById(int Id)
         {
 
-            return new SuccessDataResult<Sinav>(_sinavDal.Get(s => s.Id == Id), Messages.SinavGeted);
+            return new SuccessDataResult<List<SinavDetayDto>>(_sinavDal.GetSinavDetaylari(s => s.Id == Id), Messages.SinavGeted);
         }
 
         public IDataResult<List<SinavDetayDto>> GetAllBySinavDto()
         {
             return new SuccessDataResult<List<SinavDetayDto>>(_sinavDal.GetSinavDetaylari(), Messages.SinavListed);
         }
+
+        public IDataResult<List<SinavDetayDto>> GetByAkademisyenId(int Id)
+        {
+            return new SuccessDataResult<List<SinavDetayDto>>(_sinavDal.GetSinavDetaylari(s => s.AkademisyenId==Id), Messages.SinavGeted);
+        }
+
     }
 }

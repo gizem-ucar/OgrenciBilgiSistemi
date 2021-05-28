@@ -31,10 +31,10 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost("delete")]
-        public IActionResult Delete(Not not)
+        [HttpGet("delete")]
+        public IActionResult Delete(int Id)
         {
-            var result = _notService.Delete(not);
+            var result = _notService.Delete(Id);
             if (result.Success)
             {
                 return Ok(result);
@@ -78,9 +78,9 @@ namespace WebAPI.Controllers
 
 
         [HttpGet("getbyogrenciid")]
-        public IActionResult GetByOgrenciId(int Id)
+        public IActionResult GetByOgrenciId(int ogrenciId)
         {
-            var result = _notService.GetByOgrenciId(Id);
+            var result = _notService.GetByOgrenciId(ogrenciId);
             if (result.Success)
             {
                 return Ok(result);
@@ -90,9 +90,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getbysinavid")]
-        public IActionResult GetBySinavId(int Id)
+        public IActionResult GetBySinavId(int sinavId)
         {
-            var result = _notService.GetBySinavId(Id);
+            var result = _notService.GetBySinavId(sinavId);
             if (result.Success)
             {
                 return Ok(result);

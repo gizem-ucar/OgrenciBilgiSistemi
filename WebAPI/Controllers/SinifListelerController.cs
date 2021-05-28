@@ -29,10 +29,10 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost("delete")]
-        public IActionResult Delete(SinifListe sinifListe)
+        [HttpGet("delete")]
+        public IActionResult Delete(int Id)
         {
-            var result = _sinifListeService.Delete(sinifListe);
+            var result = _sinifListeService.Delete(Id);
             if (result.Success)
             {
                 return Ok(result);
@@ -86,9 +86,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getbysubeiid")]
-        public IActionResult GetBySubeiId(int subeiId)
+        public IActionResult GetBySubeiId(int subeId)
         {
-            var result = _sinifListeService.GetBySubeId(subeiId);
+            var result = _sinifListeService.GetBySubeId(subeId);
             if (result.Success)
             {
                 return Ok(result);
