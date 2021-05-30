@@ -7,3 +7,12 @@ C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\Core\obj\Debug\netcoreapp3.
 C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\Mehmet\Documents\GitHub\OgrenciBilgiSistemi\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\ASUS\Desktop\OgranciBilgiSistemi-main\Core\obj\Debug\netcoreapp3.1\Core.pdb
